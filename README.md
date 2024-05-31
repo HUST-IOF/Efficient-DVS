@@ -27,7 +27,7 @@ The complete dataset for training and evaluation is available on Google Drive. P
 
 Please note that the training codes, and hardware design codes will be made available once the associated article is published.
 
-We encourage you to explore and contribute to this repository. Your contributions can help enhance the efficiency, accuracy, and scalability of distributed optical fiber vibration sensing systems.
+We encourage you to explore this repository and contribute to this aspect. Your contributions can help enhance the efficiency, accuracy, and scalability of distributed optical fiber vibration sensing systems.
 
 Thank you for your interest in the Efficient-DVS repository. 
 
