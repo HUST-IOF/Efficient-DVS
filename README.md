@@ -5,4 +5,4 @@ The problem of poor generalizability of shallow CNN is solved using knowledge di
 
 This codes allows provides testing codes, example samples and trained models for evaluation
 It also provides implemented design in the form of vivado IP for hardware evaluation.
-The training codes and hardware design codes will be provided later once the article is published.
+The complete dataset, training codes and hardware design codes will be provided later once the article is published.
