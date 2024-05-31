@@ -34,4 +34,4 @@ Thank you for your interest in the Efficient-DVS repository.
 If you have any questions or need further assistance, don't hesitate to reach out.
 Contact: zluo@hust.edu.cn, wuhaoboom@hust.edu.cn
 
-Happy coding!
+Best regards.
