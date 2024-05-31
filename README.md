@@ -23,7 +23,9 @@ This repository provides the necessary codes for the evaluation and simulation o
 
 - **Vivado IP**: The repository includes the implemented design in the form of Vivado Intellectual Property (IP) for hardware evaluation on FPGAs.
 
-Please note that the complete dataset, training codes, and hardware design codes will be made available once the associated article is published.
+The complete dataset for training and evaluation is available on Google Drive. Please access the dataset [here](insert Google Drive link).
+
+Please note that the training codes, and hardware design codes will be made available once the associated article is published.
 
 We encourage you to explore and contribute to this repository. Your contributions can help enhance the efficiency, accuracy, and scalability of distributed optical fiber vibration sensing systems.
 
