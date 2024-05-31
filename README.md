@@ -23,7 +23,7 @@ This repository provides the necessary codes for the evaluation and simulation o
 
 - **Vivado IP**: The repository includes the implemented design in the form of Vivado Intellectual Property (IP) for hardware evaluation on FPGAs.
 
-The complete dataset for training and evaluation is available on Google Drive. Please access the dataset [here](insert Google Drive link).
+The complete dataset for training and evaluation is available on Google Drive. Please access the dataset [https://drive.google.com/drive/folders/1LK-k0a7M_M6h3VveUCc4wbd_T7ONR1Gb?usp=sharing].
 
 Please note that the training codes, and hardware design codes will be made available once the associated article is published.
 
