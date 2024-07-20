@@ -41,7 +41,7 @@ class LeNet_relu(nn.Module):
         return x
 
 
-# Assuming you have a list of Chinese labels
+# Assuming you have a list of labels
 labels = ['Hammer', 'Air_pick', 'Excavator']
 
 # Create label-to-index and index-to-label mappings
@@ -133,9 +133,9 @@ def main():
             transforms.ToTensor()
         ])
 
-        train_dataset = CustomDataset(root_dir='../../local_ds/example_samples/train', transform=data_transform)
+        train_dataset = CustomDataset(root_dir='../example_samples/train', transform=data_transform)
 
-        test_dataset = CustomDataset(root_dir='../../local_ds/example_samples/test', transform=data_transform)
+        test_dataset = CustomDataset(root_dir='../example_samples/test', transform=data_transform)
 
         batch_size = 8
 
@@ -144,26 +144,24 @@ def main():
 
         criterion = nn.CrossEntropyLoss()
 
-        # device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-        device = torch.device('cpu')
+        device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
         model.to(device)
-
 
         # Test the final model on the train and test set
         train_accuracy, train_loss = check_accuracy(train_loader, criterion, model, device)
         print(f"Train Accuracy: {train_accuracy:.4f}, Test Loss: {train_loss:.4f}")
 
         test_accuracy, test_loss = check_accuracy(test_loader, criterion, model, device)
-        print(f"Original Test Accuracy: {test_accuracy:.4f}, Test Loss: {test_loss:.4f}")
+        print(f"Test Accuracy: {test_accuracy:.4f}, Test Loss: {test_loss:.4f}")
 
         train_accuracy, train_loss = check_accuracy(train_loader, criterion, model, device)
 
-        print(f"Original Train Accuracy: {train_accuracy:.4f}, Test Loss: {train_loss:.4f}")
+        print(f"Train Accuracy: {train_accuracy:.4f}, Test Loss: {train_loss:.4f}")
 
         test_accuracy, test_loss = check_accuracy(test_loader, criterion, model, device)
 
-        print(f"Original Test Accuracy: {test_accuracy:.4f}, Test Loss: {test_loss:.4f}")
+        print(f"Test Accuracy: {test_accuracy:.4f}, Test Loss: {test_loss:.4f}")
 
         test_acc_list.append(test_accuracy)
         train_acc_list.append(train_accuracy)
