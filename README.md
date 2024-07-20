@@ -9,7 +9,7 @@ Welcome to the Efficient-DVS repository! This repository focuses on developing a
 
 - **CNN FPGA Implementation**: To further enhance efficiency, we propose a CNN FPGA implementation scheme. By leveraging the power of field-programmable gate arrays (FPGAs), we enable high parallelism and real-time processing capabilities.
 
-- **Knowledge Distillation**: Addressing the challenge of poor generalizability in shallow CNNs, we employ a knowledge distillation scheme. This technique enhances the generalizability of the lightweight models, resulting in improved accuracy on unknown environment data.
+- **Knowledge Distillation**: Addressing the challenge of poor generalizability in shallow CNNs, we employ a knowledge distillation scheme. This technique enhances the generalizability of the lightweight models, resulting in improved accuracy on data from unknown environment.
 
 ## Repository Contents
 
@@ -20,8 +20,6 @@ This repository provides the necessary codes for the evaluation and simulation o
 - **Example Samples**: We have included example samples for you to experiment with and evaluate the performance of the algorithm.
 
 - **Trained Models**: Pre-trained models are provided for easy evaluation and testing purposes.
-
-- **Vivado IP**: The repository includes the implemented design in the form of Vivado Intellectual Property (IP) for hardware evaluation on FPGAs.
 
 The complete dataset for training and evaluation is available on Google Drive. Please access the dataset [here](https://drive.google.com/drive/folders/1LK-k0a7M_M6h3VveUCc4wbd_T7ONR1Gb?usp=sharing).
 
